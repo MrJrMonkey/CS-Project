@@ -3,7 +3,7 @@ import mysql.connector as ms
 from tabulate import tabulate
 
 # Connect to MySQL database
-db = ms.connect(host="localhost", user="jrmonkey", passwd="120418", database="stocks")
+db = ms.connect(host="localhost", user="root", passwd="admin@123", database="stocks")
 cursor = db.cursor()
 
 # Display all items in a formatted table using tabulate
